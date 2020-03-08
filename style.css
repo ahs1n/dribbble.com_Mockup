@@ -75,6 +75,11 @@ header a
     padding-left:150px;
     
 }
+#sign-up
+{
+    width: 582px;
+    height: 480px;
+}
 .sign-up h1
 {
     font-size: 48px;
@@ -88,10 +93,15 @@ header a
     font-weight: 400;
     color: #925a1c;
 }
+.sign-up button
+{
+    margin-bottom: 110px;
+}
 .sign-up span
 {
     font-size: 16px;
 }
+
 .sign-up button
 {
     height: 37px;
@@ -99,11 +109,7 @@ header a
     background-color: #DF3E7B;
     color: #fff;
 }
-#sign-up
-{
-    width: 582px;
-    height: 327px;
-}
+
 /* item & categories */
 .items
 {
