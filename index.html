@@ -14,15 +14,18 @@
     <!-- Header -->
     <header>
         <div id="logo" class="nav-logo">
-            <a href="#"><img alt="dribbble" src="https://cdn.dribbble.com/assets/logo-bw-0200c7483844c355752e89efaa4ba89b83c9c591d70254ba10f4b25d901359d0.gif" /></a>
+            <a href="#"><img alt="dribbble" src="logo.png" /></a>
+            <a href="#">Explore</a>
+            <a href="#">For Designers</a>
+            <a href="#">Hiring Designers?</a>
         </div>
-        <a href="#">Explore</a>
-        <a href="#">For Designers</a>
-        <a href="#">Hiring Designers?</a>
 
-        <input type="text" placeholder="Sign in">
+    <div class="login">
+        <button id="sign-in">Sign in</button>
         <button>Sign up</button>
+    </div>
     </header>
+    <!-- sinup section -->
     <div class="sign-up">
         <div id="sign-up">
         <h1>Discover the world's top designers & creatives</h1>
@@ -34,14 +37,18 @@
     </div>
     </div>
     <div class="items">
-        <select name="dropdown" id="dropdownlist">
-            <option value="Popular"></option>
-            <option value="Teams"></option>
-            <option value="Debuts"></option>
-            <option value="Recent"></option>
-            <option value="Goods for sale"></option>
-        </select>
-        <div class="categories">
+        <div class="dropdown">
+            <select id="dropdownlist">
+                <option value="Popular">Popular</option>
+                <option value="Teams">Teams</option>
+                <option value="Debuts">Debuts</option>
+                <option value="Recent">Recent</option>
+                <option value="Goods for sale">Goods for sale</option>
+            </select>
+        </div>
+
+        <!-- <div class="categories"> -->
+        <div class="items-categories">
             <a href="#">All</a>
             <a href="#">Animation</a>
             <a href="#">Branding</a>
@@ -52,13 +59,21 @@
             <a href="#">Typography</a>
             <a href="#">Web Design</a>
         </div>
+        <div class="filters">
+            <details>
+                <summary>Filters</summary>
+                <div>
+
+                    <p>All content and graphics on this web 
+                        site are the property of the company Refsnes Data.</p>
+                </div>
+                
+            </details>
+        </div>
     </div>
 
-    <!-- items ctaegories -->
-    <div class="items">
-
-    </div>
-    <div class="filters">
+    <!-- items cards -->
+    <div class="cards">
         <div class="card-1">
 
         </div>  
@@ -200,7 +215,9 @@
         <div class="card-1">
 
         </div>
-        
+        <div class="card-1">
+
+        </div>
         
     </div>
 </body>
