@@ -159,3 +159,10 @@ header a
     margin-bottom: 20px;
     background-color: #fff;
 }
+.card-1 img
+{
+    height: 300px;
+    width: 390px;
+    padding-left: 7px;
+    padding-top: 6px;
+}
