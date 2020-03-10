@@ -168,3 +168,26 @@ header a
 }
 
 /* Adobe Stock section */
+.adobe-stock
+{
+
+}
+
+footer
+{
+    height: 330px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.row-1
+{
+    width: 270px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #999999;
+}
+.row-1 .social
+{
+    width: 24px;
+}
