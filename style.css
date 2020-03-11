@@ -199,3 +199,9 @@ footer
     flex-direction: column;
     font-size: 13px;
 }
+
+.row-3
+{
+    width: 24px;
+    font-size: 13px;
+}
