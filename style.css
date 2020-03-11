@@ -196,12 +196,24 @@ footer
 {
     width: 390px;
     display: flex;
-    flex-direction: column;
     font-size: 13px;
+}
+.row-2c
+{
+    display: flex;
+    width: 2px;
+}
+.row-2 ul
+{
+    list-style: none;
+}
+.row-2 ul li a
+{
+    text-decoration: none;
 }
 
 .row-3
 {
-    width: 24px;
+    width: 150px;
     font-size: 13px;
 }
