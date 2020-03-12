@@ -217,3 +217,21 @@ footer
     width: 150px;
     font-size: 13px;
 }
+
+.row-4
+{
+
+}
+.row-4 img
+{
+    height: 101px;
+    width: 130px;
+    border-radius: 3px;
+    display: flex;
+    padding-top: 15px;
+}
+#footer-ball
+{
+    height: 50px;
+    width: 50px;
+}
