@@ -125,14 +125,45 @@ header a
     border: solid 1px black;
     display: flex;
 }
+.categories
+{
+    padding-top: 30px;
+    display: flex;
+
+}
+.dropdown
+{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border: black 1px solid;
+    
+}
+#dropdownlist
+{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #444444;
+    height: 38px;
+    width: 115px;
+    border-radius: 8px;
+}
 .items-categories
 {
-    
+    border: solid black 1px;
+    padding-left: 60px;
+}
+.items-categories :hover
+{
+    background-color: #E2EEF5;
+    color: #3a8bbb;
+    border-radius: 8px;
 }
 .items-categories a
 {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     line-height: 14px;
     color: #757575;
@@ -143,10 +174,11 @@ header a
 }
 .filters
 {
-    width: 300px;
-    height: 400px;
+    width: 240px;
+    /* height: 400px; */
     display: flex;
     justify-content: flex-end;
+    border: black solid 1px;
 }
 .cards
 {
