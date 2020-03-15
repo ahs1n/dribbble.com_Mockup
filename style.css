@@ -86,6 +86,7 @@ header a
     font-weight: 700;
     line-height: 48px;
     color: #000000;
+    margin-top: 6rem;
 }
 .sign-up p
 {
@@ -95,11 +96,17 @@ header a
 }
 .sign-up button
 {
-    margin-bottom: 110px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    border: none;
 }
 .sign-up span
 {
     font-size: 16px;
+}
+.sign-up a
+{
+    color: black;
 }
 
 .sign-up button
