@@ -200,16 +200,56 @@ header a
 }
 .card-1 img
 {
-    height: 300px;
-    width: 390px;
-    padding-left: 7px;
-    padding-top: 6px;
+    height: 295px;
+    width: 385px;
+    padding-left: 9px;
+    padding-top: 8px;
 }
 
 /* Adobe Stock section */
 .adobe-stock
 {
+    border: solid black 1px;
+    /* display: flex; */
+}
+.adobe-stock img
+{
+    height: 56px;
+    width: 157px;
+}
+.adobe-stock a
+{
+    text-decoration: none;
+    font-size: 12px;
+}
+.adobe-p
+{
+    display: flex;
+    /* flex-direction: row; */
+}
+#b1
+{
 
+}
+#b2
+{
+    height: 47px;
+    width: 400px;
+    border-radius: 4px;
+    border: none;
+    background-color: #DF3E7B;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+}
+#b2 :hover
+{
+    background-color: #DF3EFB;
+}
+.sign_in-up
+{
+    text-align: center;
 }
 
 footer
