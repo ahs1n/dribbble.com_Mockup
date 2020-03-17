@@ -6,7 +6,7 @@ body
 }
 .nav-logo
 {
-    border: white 1px solid;
+    /* border: white 1px solid; */
     width: 400px;
     height: 55px;
     padding-left: 20px;
@@ -16,7 +16,7 @@ body
 
 header
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 55px;
     background-color: #333333;
@@ -38,7 +38,7 @@ header a
 .login
 {
     width: 195px;
-    border: white 1px solid;
+    /* border: white 1px solid; */
     padding-top: 10px;
 }
 #sign-in
@@ -122,7 +122,7 @@ header a
 {
     width: 100%;
     height: 77px;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     display: flex;
 }
 .categories
@@ -136,7 +136,7 @@ header a
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 40px;
-    border: black 1px solid;
+    /* border: black 1px solid; */
     
 }
 #dropdownlist
@@ -151,7 +151,7 @@ header a
 }
 .items-categories
 {
-    border: solid black 1px;
+    /* border: solid black 1px;  */
     padding-left: 60px;
 }
 .items-categories :hover
@@ -194,7 +194,7 @@ header a
 {
     width: 404px;
     height: 312px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 20px;
     background-color: #fff;
 }
@@ -209,7 +209,7 @@ header a
 /* Adobe Stock section */
 .adobe-stock
 {
-    border: solid black 1px;
+    /* border: solid black 1px; */
     width: 650px;
     /* display: flex; */
 
@@ -231,14 +231,11 @@ header a
 }
 .adobe-p
 {
-    border: solid 1px black;
+    /* border: solid 1px black; */
     width: 300px;
+    margin-bottom: 30px;
 }
-.adobe-p p
-{
-    height: 12px;
-    line-height: 13px;
-}
+
 .adobe-stock p :hover
 {
     color: #3a8bbb;
@@ -275,9 +272,21 @@ header a
     line-height: 17px;
     font-weight: 500;
 }
-#b2 :hover
+#b2:hover
 {
     background-color: #DF3EFB;
+}
+#b3
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* border: black 1px solid; */
+    padding-left: 50px;
+}
+#b3:hover
+{
+    color: #f082ac;
 }
 .sign_in-up
 {
