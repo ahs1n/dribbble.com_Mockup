@@ -232,11 +232,11 @@ header a
 .adobe-p
 {
     border: solid 1px black;
+    width: 300px;
 }
 .adobe-p p
 {
     height: 12px;
-    width: 300px;
     line-height: 13px;
 }
 .adobe-stock p :hover
@@ -249,12 +249,15 @@ header a
 }
 #b1
 {
-    height: 40px;
-    width: 97px;
-    border-radius: 4px;
+    height: 41px;
+    width: 103px;
+    border-radius: 8px;
     border: none;
-    color: #666;
+    color: #0d0c22;
+    font-size: 14px;
+    font-weight: 500;
     background-color: #ddd;
+    margin-top: 10px;
 }
 #b1 :hover
 {
@@ -262,9 +265,9 @@ header a
 }
 #b2
 {
-    height: 47px;
-    width: 400px;
-    border-radius: 4px;
+    height: 41px;
+    width: 248px;
+    border-radius: 8px;
     border: none;
     background-color: #DF3E7B;
     color: #fff;
