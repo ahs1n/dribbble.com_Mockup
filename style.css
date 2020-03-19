@@ -423,14 +423,16 @@ footer
     display: flex;
     padding-top: 15px;
 }
-.footer-ball img
+.fotter-ball img
 {
     height: 50px;
     width: 50px;
+    border: black 1px solid;
 }
-.footer-ball
+.fotter-ball
 {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: column;
+    padding-top: 25px;
+ 
 }
