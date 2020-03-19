@@ -328,13 +328,34 @@ footer
     width: 390px;
     display: flex;
     font-size: 13px;
+    line-height: 23px;
+    
+    font-weight: 400;
     border: 1px solid black;
 
 }
+#row-headings
+{
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 500;
+}
+.row-2 p
+{
+    color: #61606f;
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 500;
+}
 .row-2c
 {
-    display: flex;
-    width: 2px;
+    padding-top: 20px;
+    /* display: flex;
+    width: 2px; */
+}
+#row-2-line2
+{
+    padding-top: 50px;
 }
 .row-2 ul
 {
@@ -343,6 +364,7 @@ footer
 .row-2 ul li a
 {
     text-decoration: none;
+    color: #61606f;
 }
 
 .row-3
