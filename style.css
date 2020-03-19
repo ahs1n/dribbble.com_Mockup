@@ -325,11 +325,10 @@ footer
 }
 .row-2
 {
-    width: 390px;
+    width: 380px;
     display: flex;
     font-size: 13px;
     line-height: 23px;
-    
     font-weight: 400;
     border: 1px solid black;
 
@@ -366,10 +365,15 @@ footer
     text-decoration: none;
     color: #61606f;
 }
+.row-2_footer
+{
+    display: flex;
+    
+}
 
 .row-3
 {
-    width: 150px;
+    width: 190px;
     font-size: 13px;
     border: 1px solid black;
 }
@@ -385,6 +389,23 @@ footer
 {
     height: 35px;
     width: 35px;
+}
+.liferay
+{
+    display: flex;
+}
+.liferay-image
+{
+
+}
+.liferay-text
+{
+    display: flex;
+    flex-direction: column;
+}
+.lendinvest
+{
+    
 }
 .row-4
 {
