@@ -178,7 +178,7 @@ header a
     /* height: 400px; */
     display: flex;
     justify-content: flex-end;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 .cards
 {
@@ -204,6 +204,7 @@ header a
     width: 385px;
     padding-left: 9px;
     padding-top: 8px;
+    border-radius: 25px;
 }
 
 /* Adobe Stock section */
